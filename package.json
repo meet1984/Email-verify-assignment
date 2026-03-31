@@ -1,0 +1,25 @@
+{
+  "name": "email-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "fast-levenshtein": "^3.0.0",
+    "nodemailer": "^8.0.4",
+    "promises": "^0.2.5",
+    "smtp-client": "^0.4.0",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+
+}
